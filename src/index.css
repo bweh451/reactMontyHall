@@ -1,0 +1,109 @@
+/* This stylesheet styles all components throughout the page */
+
+
+/* Add following styling to body element */
+body {
+  margin: 0;
+  font-family: Roboto, 'Segoe UI', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #0E0E0E;
+  color: #7E7E7E;
+}
+
+/* Styles all elements with the following class */
+.headGridContainer{
+  display: grid;
+  grid-template-columns: 0.3fr 1fr 0.3fr;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  ". header .";
+}
+
+/* Styles all elements with the following class */
+.header{
+  grid-area: header;
+}
+
+/* Styles all p elements within the following class */
+.header p{
+  padding: 0 20px;
+  font-size: 130%;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+/* Styles all h2 elements within the following class */
+.header h2{
+  margin-top: 100px;
+}
+
+/* Styles all span elements within the following class */
+.header span{
+  padding-top: 20px;
+}
+
+/* Styles all elements with the following class */
+.flexContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styles all elements with the following class */
+.door{
+  background-image: url(./images/closedDoor.png);
+  height: 736px;
+  width: 488px;
+
+}
+
+/* Styles all elements with the following class */
+.losingDoor{
+  background-image: url(./images/goat.png);
+  height: 736px;
+  width: 488px;
+
+}
+
+/* Styles all elements with the following class */
+.winningDoor{
+  background-image: url(./images/car.png);
+  height: 736px;
+  width: 488px;
+
+}
+
+/* Styles all elements with the following class */
+.game{
+  height: 100vh;
+}
+
+/* Styles all elements with the following class */
+.gameHeader{
+  margin-top: 100px;
+  padding-top: 10px;
+}
+
+/* Styles all elements with the following class */
+.resetBtn{
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: large;
+  border: none;
+  border-radius: 36px;
+  padding: 10px 10px;
+  background-color: #7E7E7E;
+}
+
+/* Styles all elements with the following class */
+.result{
+  margin: 0;
+}
+
+/* Styles all p elements */
+a{
+  color: #7E7E7E;
+}
